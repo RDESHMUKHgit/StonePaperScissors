@@ -18,12 +18,21 @@ An interactive, emoji-powered terminal game of Stone, Paper, Scissors built with
 
 ## 🚀 Getting Started
 
-#### 📁 Clone the Repository
+### 📁 Clone the Repository
 
 ```bash
 git clone https://github.com/RDESHMUKHgit/StonePaperScissors.git
 cd .\StonePaperScissors\
 ```
+
+#### 🔎Locate the game file
+```bash
+cd .\dist\
+.\StonePaperScissors.exe
+```
+
+#### Alternatively, you can open your File Explorer and double-click on `StonePaperScissors.exe` to run the game.
+
 ## 📝 Rules
 <b>1. Choose your move:</b>
 - `0` for ✊ Stone
@@ -39,10 +48,36 @@ cd .\StonePaperScissors\
 ## 📂 Project Structure
 
 ```bash
-stone-paper-scissors-python/
-├── game.py          # Main game file
-├── README.md        # This README
-└── demo.gif         # (Optional) Gameplay demo
+|   main.py
+|   StonePaperScissors.spec
+|   
++---build
+|   \---StonePaperScissors
+|       |   Analysis-00.toc
+|       |   base_library.zip
+|       |   EXE-00.toc
+|       |   PKG-00.toc
+|       |   PYZ-00.pyz
+|       |   PYZ-00.toc
+|       |   StonePaperScissors.pkg
+|       |   warn-StonePaperScissors.txt
+|       |   xref-StonePaperScissors.html
+|       |   
+|       \---localpycs
+|               pyimod01_archive.pyc
+|               pyimod02_importers.pyc
+|               pyimod03_ctypes.pyc
+|               pyimod04_pywin32.pyc
+|               struct.pyc
+|               
++---dist
+|       StonePaperScissors.exe # The main Game File is Here..
+|       
+\---media  # See the images for a demo.
+        img1.png
+        img2.png
+        
+
 
 ```
 
